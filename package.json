@@ -1,0 +1,24 @@
+{
+ "name": "borealsystems-director",
+ "version": "1.0.0",
+ "api_version": "1.0.0",
+ "keywords": [
+  "Control",
+  "Orchestration"
+ ],
+ "manufacturer": "Boreal Systems",
+ "product": "Director",
+ "shortname": "director",
+ "homepage": "https://boreal.systems/",
+ "description": "Companion Module for interfacting with Boreal Systems Director",
+ "main": "index.js",
+ "repository": "https://phabricator.boreal.systems/diffusion/11/companion-module-borealsystems-director.git",
+ "author": "Oliver Herrmann <oliver@monoxane.io>",
+ "license": "MIT",
+ "private": true,
+ "dependencies": {
+  "fetch": "^1.1.0",
+  "graphql": "^15.5.0",
+  "isomorphic-unfetch": "^3.1.0"
+ }
+}
